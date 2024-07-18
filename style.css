@@ -54,7 +54,12 @@ p {
 }
 
 body.second-page {
-    background-color: lightgray;
+    /*background-color: lightgray;*/
+    background: url('meatcube-concrete-dalle3.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 input {

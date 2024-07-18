@@ -6,7 +6,7 @@ function checkKeyPress(event) {
 
 function checkAccess() {
   var accessCode = document.getElementById('accessCode').value.toLowerCase().replace(/\s+/g, ''); // Convert to lowercase and remove spaces
-  var expectedCode = 'hardcoreplanography'; // Expected password without spaces, you can change it as needed
+  var expectedCode = 'pizzarat'; // Expected password without spaces, you can change it as needed
 
   if (accessCode === expectedCode.toLowerCase()) { // Convert to lowercase for comparison
     // Set a flag to indicate successful access
