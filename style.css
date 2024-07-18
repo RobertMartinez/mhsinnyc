@@ -1,0 +1,107 @@
+/* CSS for larger screens */
+
+
+body.landing {
+    background: url('landing-page.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body,
+h1,
+p {
+    font-size: 16px;
+}
+
+#logo img {
+    max-width: 400px;
+    /* Adjust size as needed */
+    height: auto;
+}
+/* More styles for larger screens if required */
+
+
+/* CSS for mobile screens */
+@media only screen and (max-width: 1500px) {
+
+    body.landing {
+        background: url('mobile-landing-page.png') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    body,
+    h1,
+    p {
+        font-size: 22px;
+    }
+
+    #logo img {
+        max-width: 600px;
+        /* Adjust size as needed */
+        height: auto;
+    }
+    /* More styles for smaller screens if required */
+    
+    .form-control {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+}
+
+body.second-page {
+    background-color: lightgray;
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+    /* Add padding-top */
+    padding-top: 10%;
+    text-align: center;
+}
+
+.spacer {
+    flex-grow: 2;
+}
+
+/* h1,
+p {
+    margin: 0.5em 0;
+} */
+
+.input-group {
+    width: 100%;
+}
+
+.form-control {
+    width: 100%;
+    /* Adjust as needed */
+}
+
+.full-vh-img {
+    height: 100vh;
+    /* Make the image take up the full vertical space */
+    object-fit: cover;
+    /* Preserve the aspect ratio of the image */
+}

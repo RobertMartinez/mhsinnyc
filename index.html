@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Simple Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class="landing">
+    <div class="container">
+        <h1 id="logo">
+            <img src="logo.png" alt="Bellhop International">
+        </h1>
+        <!-- <p>We won't stop until you're satisfied.</p> -->
+        <div class="row justify-content-md-center">
+            <div class="col-lg-4">
+                <div class="input-group">
+                    <!-- change the placeholder text here -->
+                    <input type="text" class="form-control" id="accessCode" placeholder="password please"
+                        onkeydown="checkKeyPress(event)">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" onclick="checkAccess()">Access</button>
+                    </div>
+                </div>
+                <div class="question-link">
+                    <a href="puzzle.html">
+                        <img src="question-mark.png" alt="Question Mark">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="spacer"></div> <!-- Add this after your content -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
